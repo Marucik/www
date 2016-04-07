@@ -1,0 +1,2 @@
+# www
+Pierdołki pierdołeczki pierdolety 
