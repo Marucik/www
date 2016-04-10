@@ -1,0 +1,169 @@
+body
+{
+	background-color: lightgrey;
+	font-family: 'Lato', sans-serif;	
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo
+{
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tile0
+{
+	width: 50px;
+	height: 50px;
+	float: left;	
+}
+
+.tile1
+{
+	background-color: #75DDFF;
+	width: 50px;
+	height: 50px;
+	float: left;	
+}
+
+.tile2
+{
+	background-color: #64ccee;
+	width: 50px;
+	height: 50px;
+	float: left;	
+	
+}
+
+.tile3
+{
+	background-color: #53bbdd;
+	width: 50px;
+	height: 50px;
+	float: left;	
+	
+}
+
+#logotext
+{
+	padding: 20px;
+	text-align: center;
+	font-size: 25px;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+#topmenu
+{
+	width: 1000px;
+	height: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.menu
+{
+	float: left;
+	text-align: center;
+	font-size: 18px;
+	min-width: 178px;
+	background-color: #A9A9A9;
+	padding: 10px;
+	border-right: 2px dotted black;
+}
+
+.menu:hover
+{
+	background-color: #53bbdd;
+	cursor: pointer;
+}
+
+#bottombar
+{
+	width: 1000px;
+	height: 300px;
+	background-color: #989898;	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bottomL
+{
+	float: left;
+	width: 200px;
+	height: 300px;
+}
+
+#bottomR
+{
+	float: left;
+	width: 800px;
+	height: 300px;
+}
+
+#yt
+{
+	text-align: center;
+	width: 200px;
+	height: 100px;
+}
+
+#steam
+{
+	text-align: center;
+	width: 200px;
+	height: 100px;
+}
+
+#fb
+{
+	text-align: center;
+	width: 200px;
+	height: 100px;
+}
+
+#fb:hover
+{
+	background-color: #E9EAED;
+	color: #44619D;
+	cursor: pointer;
+}
+
+#yt:hover
+{
+	background-color: #ffffff;
+	color: #E62117;
+	cursor: pointer;
+}
+
+#steam:hover
+{
+	background-color: #1B2838;
+	color: #BEBDBB;
+	cursor: pointer;
+}
+
+a.tilelink
+{
+	color: black;
+	decoration: none;
+}
+
+#content
+{
+	height: 290px;
+	width: 790px;
+	border-left: 2px dotted #000000;
+	padding: 5px;
+	font-size: 16px;
+	
+}
