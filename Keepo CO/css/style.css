@@ -31,8 +31,7 @@ body
 	width: 50px;
 	height: 50px;
 	float: left;
-	transition: all .2s ease-in;
-        color: #75DDFF;
+	color:	#75DDFF;
 	text-align: center;
 }
 
@@ -44,6 +43,7 @@ body
 	padding-top: 15px;
 	height: 35px;
 	cursor: not-allowed;
+	transition: all .2s ease-in;
 }
 
 .tile2
@@ -61,7 +61,6 @@ body
 	width: 50px;
 	height: 50px;
 	float: left;	
-	
 }
 
 #logotext
@@ -77,7 +76,6 @@ body
 #topmenu
 {
 	width: 1000px;
-	height: 25px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
@@ -88,16 +86,34 @@ body
 	float: left;
 	text-align: center;
 	font-size: 18px;
-	min-width: 178px;
+	width: 178px;
 	background-color: #A9A9A9;
 	padding: 10px;
-	border-right: 2px dotted black;
 }
 
 .menu:hover
 {
 	background-color: #53bbdd;
 	cursor: pointer;
+	transition: all .3s ease-in;
+}
+
+.menufirst
+{
+	float: left;
+	text-align: center;
+	font-size: 18px;
+	background-color: #A9A9A9;
+	padding: 10px;
+	border-left: none;
+	width: 180px;
+}
+
+.menufirst:hover
+{
+	background-color: #53bbdd;
+	cursor: pointer;
+	transition: all .3s ease-in;
 }
 
 #bottombar
@@ -149,6 +165,7 @@ body
 	background-color: #E9EAED;
 	color: #44619D;
 	cursor: pointer;
+	transition: all .2s ease-in;
 }
 
 #yt:hover
@@ -156,6 +173,7 @@ body
 	background-color: #ffffff;
 	color: #E62117;
 	cursor: pointer;
+	transition: all .2s ease-in;
 }
 
 #steam:hover
@@ -163,6 +181,7 @@ body
 	background-color: #1B2838;
 	color: #BEBDBB;
 	cursor: pointer;
+	transition: all .2s ease-in;
 }
 
 a.tilelink
@@ -171,12 +190,18 @@ a.tilelink
 	decoration: none;
 }
 
+a.menulink
+{
+	color: black;
+	decoration: none;
+}
+
 #content
 {
-	height: 290px;
-	width: 790px;
+	height: 270px;
+	width: 758px;
 	border-left: 2px dotted #000000;
-	padding: 5px;
+	padding: 15px;
 	font-size: 16px;
 	
 }
